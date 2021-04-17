@@ -9,7 +9,7 @@ fun main(){
 //Classes and objects
 class Country(var name:String,var populie:Double,var preso:String,var color:String,var lifeSpan:Int ){
     fun instance(){
-        println("The country of $name is over populated with a current population of $populie")
+        println("The country of $name is over populated with a current population of $populie million")
     }
     fun pop(minAge:Int){
         if(minAge<lifeSpan){
